@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   override:
-    - docker build -t test1
+    - docker build -t test1 .
 
 test:
   override:
